@@ -4,7 +4,7 @@ import com.semantics3.Util;
 import oauth.signpost.exception.OAuthCommunicationException;
 import oauth.signpost.exception.OAuthExpectationFailedException;
 import oauth.signpost.exception.OAuthMessageSignerException;
-import org.json.JSONObject;
+import org.jsonsem.JSONObject;
 
 import java.io.IOException;
 import java.net.URISyntaxException;
