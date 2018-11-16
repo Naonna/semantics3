@@ -1,4 +1,4 @@
-package org.jsonsem;
+package org.jsonsem3;
 
 /*
 Copyright (c) 2008 JSON.org

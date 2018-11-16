@@ -6,8 +6,8 @@ import oauth.signpost.basic.DefaultOAuthConsumer;
 import oauth.signpost.exception.OAuthCommunicationException;
 import oauth.signpost.exception.OAuthExpectationFailedException;
 import oauth.signpost.exception.OAuthMessageSignerException;
-import org.jsonsem.JSONObject;
-import org.jsonsem.JSONTokener;
+import org.jsonsem3.JSONObject;
+import org.jsonsem3.JSONTokener;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -127,8 +127,8 @@ public class Semantics3Request{
             request.setDoInput(true);
             request.setDoOutput(true);
             request.setRequestMethod(method);
-            request.setRequestProperty("Content-Type", "application/jsonsem");
-            request.setRequestProperty("Accept", "application/jsonsem");
+            request.setRequestProperty("Content-Type", "application/jsonsem3");
+            request.setRequestProperty("Accept", "application/jsonsem3");
             consumer.sign(request);
             JSONObject jsonParams = new JSONObject(params);
             OutputStreamWriter outputStreamWriter = new OutputStreamWriter(request.getOutputStream());

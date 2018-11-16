@@ -1,4 +1,4 @@
-package org.jsonsem;
+package org.jsonsem3;
 
 import java.io.BufferedReader;
 import java.io.IOException;

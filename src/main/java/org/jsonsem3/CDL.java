@@ -1,4 +1,4 @@
-package org.jsonsem;
+package org.jsonsem3;
 
 /*
 Copyright (c) 2002 JSON.org
@@ -43,6 +43,7 @@ SOFTWARE.
  * @author JSON.org
  * @version 2012-11-13
  */
+
 public class CDL {
 
     /**

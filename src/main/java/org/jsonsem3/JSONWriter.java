@@ -1,4 +1,4 @@
-package org.jsonsem;
+package org.jsonsem3;
 
 import java.io.IOException;
 import java.io.Writer;

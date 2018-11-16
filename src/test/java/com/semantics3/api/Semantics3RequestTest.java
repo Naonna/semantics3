@@ -4,8 +4,8 @@ import com.semantics3.errors.Semantics3Exception;
 import oauth.signpost.exception.OAuthCommunicationException;
 import oauth.signpost.exception.OAuthExpectationFailedException;
 import oauth.signpost.exception.OAuthMessageSignerException;
-import org.jsonsem.JSONArray;
-import org.jsonsem.JSONObject;
+import org.jsonsem3.JSONArray;
+import org.jsonsem3.JSONObject;
 import org.junit.Test;
 
 import java.io.IOException;

@@ -1,4 +1,4 @@
-package org.jsonsem;
+package org.jsonsem3;
 
 /**
  * The JSONException is thrown by the JSON.org classes when things are amiss.
